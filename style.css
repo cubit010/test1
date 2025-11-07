@@ -1,10 +1,22 @@
 img {
-    width: 200px;
+    width: 300px;
+    animation: rotatePic infinite 4s linear;
 }
 
 body {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: lightblue;
-    color: orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(207, 243, 255);
+    color: rgb(104, 209, 0);
+    
 }
+
+@keyframes rotatePic{
+    0% {
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
